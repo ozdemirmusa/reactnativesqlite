@@ -1,0 +1,8 @@
+rootProject.name = 'yoklama'
+include ':react-native-text-input-mask'
+project(':react-native-text-input-mask').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-text-input-mask/android')
+
+include ':react-native-sqlite-2'
+project(':react-native-sqlite-2').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sqlite-2/android')
+
+include ':app'
